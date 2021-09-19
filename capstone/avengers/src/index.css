@@ -1,0 +1,84 @@
+body {
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+    background-image:url("avenge2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family:'Franklin Gothic Medium';
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .sortbar {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #searchForm {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #searchForm > * {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #searchForm > input {
+    width: 40%;
+  }
+  
+  #sortingButtonsContainer {
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  #sortingButtonsContainer > span {
+    padding: 10px;
+  }
+  
+  .sortingButtons:hover {
+    box-shadow: 1px 1px 5px black;
+    color: teal;
+    background-color: lightseagreen;
+    cursor: pointer;
+  }
+  
+  .avengersListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .avengerContainer {
+    text-align: center;
+    margin: 5px auto;
+    border: 2px solid teal;
+    padding: 15px;
+    width: 30%;
+    border-radius: 100px;
+  }
+  
+  .avengerContainer > a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .avengerContainer:hover {
+    box-shadow: 3px 3px 15px black;
+    background-color: lightyellow;
+    cursor: pointer;
+  }
+  
+  #errMsg {
+    font-size: 30px;
+    text-align: center;
+    color: firebrick;
+    font-weight: bold;
+    margin: 25px;
+  }
+  

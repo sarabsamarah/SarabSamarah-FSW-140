@@ -1,0 +1,49 @@
+body {
+    background-image:url("avenge.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+* {
+    color: white;
+}
+
+.Interact {
+    align-self: center;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.name {
+    text-align: center;
+    color: red;
+}
+
+.url {
+    text-align: center;
+}
+
+.appearances {
+    text-align: center;
+}
+
+.gender {
+    text-align: center;
+}
+
+.years {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    color:blue;
+}
+
+.Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

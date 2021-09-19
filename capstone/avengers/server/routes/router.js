@@ -11,8 +11,8 @@ const db = mysql.createConnection({
 });
 
 sqlRouter.get('/data', (req, res, next) => {
-  let sql = "SELECT * FROM avengers32"
-  db.query(sql, (err, result)=> {
+  let myQuery = "SELECT * FROM avengers32"
+  db.query(myQuery, (err, result)=> {
     if(err){
       return next(err);
     }
